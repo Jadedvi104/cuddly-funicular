@@ -5,6 +5,7 @@ const version = 1;
 <template>
   <!-- test auto import components -->
   <AppHeader/>
+  <HeroSection/>
 </template>
 
 <style>
