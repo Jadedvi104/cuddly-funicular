@@ -75,9 +75,9 @@
 
       <div class="flex flex-wrap items-center justify-between py-6">
         <div class="w-1/2 md:w-auto">
-          <a href="index.html" class="text-black font-bold text-2xl">
+          <NuxtLink to="/index" class="text-black font-bold text-2xl">
             DentalPro
-          </a>
+          </NuxtLink>
         </div>
 
         <label for="menu-toggle" class="pointer-cursor md:hidden block"><svg class="fill-current text-black"
@@ -92,13 +92,11 @@
           <nav
             class="w-full bg-white md:bg-transparent rounded shadow-lg px-6 py-4 mt-4 text-center md:p-0 md:mt-0 md:shadow-none">
             <ul class="md:flex items-center">
-              <li><a class="py-2 inline-block md:text-black md:hidden lg:block font-semibold" href="#">About Us</a></li>
-              <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold"
-                  href="#">Treatments</a></li>
+              <li><NuxtLink to="/about" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">About Us</NuxtLink></li>
+              <li class="md:ml-4"><NuxtLink to="/treatments" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">Treatments</NuxtLink></li>
               <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold"
                   href="#">Testimonials</a></li>
-              <li class="md:ml-4 md:hidden lg:block"><a class="py-2 inline-block md:text-black md:px-2 font-semibold"
-                  href="#">Blog</a></li>
+              <li class="md:ml-4 md:hidden lg:block"><NuxtLink to="/blog" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">Blog</NuxtLink></li>
               <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold" href="#">Contact
                   Us</a></li>
               <li class="md:ml-6 mt-3 md:mt-0">

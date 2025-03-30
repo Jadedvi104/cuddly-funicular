@@ -1,12 +1,9 @@
-<script setup lang="ts">
-const version = 1;
-</script>
-
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <AppHeader/>
+  <HeroSection/>
 </template>
+
+<script setup lang="ts"></script>
 
 <style>
 #menu-toggle:checked + #menu {
