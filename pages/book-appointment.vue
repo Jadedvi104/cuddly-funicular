@@ -124,7 +124,7 @@ const submitForm = async () => {
     // Simulate successful submission
     successMessage.value = 'Appointment booked successfully!';
     // Reset form
-    Object.keys(formData).forEach(key => formData[key] = '');
+    (Object.keys(formData) as Array<keyof typeof formData>).forEach(key => formData[key] = '');
   } catch (error: any) {
     errorMessage.value = error.message || 'An error occurred.';
   } finally {
