@@ -75,7 +75,7 @@
 
       <div class="flex flex-wrap items-center justify-between py-6">
         <div class="w-1/2 md:w-auto">
-          <NuxtLink to="/index" class="text-black font-bold text-2xl">
+          <NuxtLink to="/" class="text-black font-bold text-2xl">
             DentalPro
           </NuxtLink>
         </div>
@@ -100,9 +100,8 @@
               <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold" href="#">Contact
                   Us</a></li>
               <li class="md:ml-6 mt-3 md:mt-0">
-                <a class="inline-block font-semibold px-4 py-2 text-black bg-blue-600 md:bg-transparent md:text-black border border-white rounded"
-                  href="book-appointment.html">Book
-                  Appointment</a>
+                <NuxtLink to="/book-appointment" class="inline-block font-semibold px-4 py-2 text-black bg-blue-600 md:bg-transparent md:text-black border border-white rounded">Book
+                  Appointment</NuxtLink>
               </li>
             </ul>
           </nav>
