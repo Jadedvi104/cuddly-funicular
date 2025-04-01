@@ -1,5 +1,5 @@
 <template>
-  <div class="book-appointment-page max-w-xl mx-auto p-5">
+  <div class="book-appointment-page max-w-xl mx-auto p-5 mt-6 bg-white shadow-md rounded-lg">
     <h1 class="text-2xl font-bold mb-6">Book Appointment</h1>
 
     <form @submit.prevent="submitForm">

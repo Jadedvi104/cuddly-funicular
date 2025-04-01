@@ -1,5 +1,5 @@
 <template>
-  <header class="absolute top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64">
+  <header class="relative top-0 left-0 w-full z-50 px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 bg-white shadow-md">
       <div class="hidden md:flex justify-between items-center py-2 border-b text-sm py-3"
         style="border-color: rgba(255,255,255,.25)">
         <div class="">
@@ -94,11 +94,14 @@
             <ul class="md:flex items-center">
               <li><NuxtLink to="/about" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">About Us</NuxtLink></li>
               <li class="md:ml-4"><NuxtLink to="/treatments" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">Treatments</NuxtLink></li>
-              <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold"
-                  href="#">Testimonials</a></li>
+              <li class="md:ml-4">
+                <NuxtLink to="/testimonials" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">Testimonials</NuxtLink>
+                </li>
               <li class="md:ml-4 md:hidden lg:block"><NuxtLink to="/blog" class="py-2 inline-block md:text-black md:hidden lg:block font-semibold">Blog</NuxtLink></li>
-              <li class="md:ml-4"><a class="py-2 inline-block md:text-black md:px-2 font-semibold" href="#">Contact
-                  Us</a></li>
+              <li class="md:ml-4">
+                <NuxtLink to="/contact-us" class="py-2 inline-block md:text-black md:px-2 font-semibold" href="#">Contact
+                  Us</NuxtLink>
+                </li>
               <li class="md:ml-6 mt-3 md:mt-0">
                 <NuxtLink to="/book-appointment" class="inline-block font-semibold px-4 py-2 text-black bg-blue-600 md:bg-transparent md:text-black border border-white rounded">Book
                   Appointment</NuxtLink>

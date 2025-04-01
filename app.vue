@@ -4,6 +4,7 @@ const version = 1;
 
 <template>
   <NuxtLayout>
+    <AppHeader />
     <NuxtPage />
   </NuxtLayout>
 </template>
