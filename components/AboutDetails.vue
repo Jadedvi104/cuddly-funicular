@@ -3,7 +3,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div class="md:order-2">
         <img
-          src="https://via.placeholder.com/600x400"
+          src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGRlbnRpc3R8ZW58MHx8fHwxNjg1NzYzNzYx&ixlib=rb-4.0.3&q=80&w=600"
           alt="About Us"
           class="rounded-lg shadow-lg"
         />

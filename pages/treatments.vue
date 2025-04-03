@@ -14,8 +14,8 @@
         <!-- Treatment Card -->
         <div class="bg-white shadow-md rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/400x200"
-            alt="Treatment"
+            src="https://images.unsplash.com/photo-1588774069268-6a6b6aeeea67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHRlZXRoJTIwd2hpdGVuaW5nfGVufDB8fHx8MTY4NTc2NjYzNQ&ixlib=rb-4.0.3&q=80&w=600"
+            alt="Teeth Whitening"
             class="w-full h-48 object-cover"
           />
           <div class="p-4">
@@ -32,11 +32,11 @@
           </div>
         </div>
 
-        <!-- Repeat Treatment Card -->
+        <!-- Treatment Card -->
         <div class="bg-white shadow-md rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/400x200"
-            alt="Treatment"
+            src="https://images.unsplash.com/photo-1588774069268-6a6b6aeeea67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGRlbnRhbCUyMGltcGxhbnRzfGVufDB8fHx8MTY4NTc2NjYzNQ&ixlib=rb-4.0.3&q=80&w=600"
+            alt="Dental Implants"
             class="w-full h-48 object-cover"
           />
           <div class="p-4">
@@ -53,11 +53,11 @@
           </div>
         </div>
 
-        <!-- Add more treatment cards as needed -->
+        <!-- Treatment Card -->
         <div class="bg-white shadow-md rounded-lg overflow-hidden">
           <img
-            src="https://via.placeholder.com/400x200"
-            alt="Treatment"
+            src="https://images.unsplash.com/photo-1588774069268-6a6b6aeeea67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fG9ydGhvZG9udGljc3xlbnwwfHx8fDE2ODU3NjY2MzU&ixlib=rb-4.0.3&q=80&w=600"
+            alt="Orthodontics"
             class="w-full h-48 object-cover"
           />
           <div class="p-4">
